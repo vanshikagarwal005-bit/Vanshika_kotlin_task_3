@@ -73,11 +73,10 @@
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="16dp"
         app:cardElevation="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.627">
+           app:layout_constraintTop_toBottomOf="@+id/text"
+        android:layout_marginTop="32dp">
 
 
            <LinearLayout
@@ -201,12 +200,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Or continue with"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/login_card"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="@id/login_card"
         app:layout_constraintTop_toBottomOf="@+id/login_card"
-        app:layout_constraintVertical_bias="0.14" />
+        android:layout_marginTop="24dp" />
 
         <GridLayout
         android:id="@+id/grid"
@@ -217,12 +215,11 @@
         android:layout_marginRight="30dp"
         android:columnCount="3"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Cont"
-        app:layout_constraintVertical_bias="0.0">
+        >
 
 
         <androidx.cardview.widget.CardView
@@ -285,12 +282,10 @@
             android:layout_marginTop="10dp"
             android:text="End-to-end encryption"
             android:textSize="12dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/grid"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toBottomOf="@id/grid"/>
 
         <TextView
             android:id="@+id/dont_have_account"
@@ -305,14 +300,15 @@
             app:layout_constraintHorizontal_bias="0.48"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/encryption"
-            app:layout_constraintVertical_bias="1.0" />
+            android:layout_marginBottom="24dp" />
 
         <TextView
+            android:id="@+id/signupText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="1dp"
+            android:layout_marginBottom="24dp"
             android:text="SignUp"
-            android:id="@+id/signupText"
             android:textColor="@color/light_purple"
             android:textSize="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
