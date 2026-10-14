@@ -112,6 +112,7 @@
                    android:src="@drawable/email"/>
 
                <EditText
+                   android:id="@+id/email"
                    android:layout_width="match_parent"
                    android:layout_height="50dp"
                    android:background="@color/transparent"
@@ -151,6 +152,7 @@
 
 
                    <EditText
+                       android:id="@+id/password"
                       android:layout_width="match_parent"
                       android:layout_height="match_parent"
                        android:background="@color/transparent"
@@ -168,6 +170,7 @@
 
 
                <Button
+                   android:id="@+id/login"
                    android:layout_width="match_parent"
                    android:layout_height="50dp"
                    android:layout_marginLeft="20dp"
