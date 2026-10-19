@@ -103,7 +103,7 @@
                             android:layout_height="50dp"
                             android:background="@color/transparent"
                             android:hint="Enter your name"
-                            android:inputType="textEmailAddress"
+                            android:inputType="textPersonName"
                             android:padding="12dp"
                             android:textSize="14dp" />
 

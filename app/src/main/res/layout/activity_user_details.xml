@@ -138,7 +138,7 @@
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginRight="30dp"
-                        android:columnCount="2"
+                        android:columnCount="3"
                         android:orientation="horizontal"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.516"
@@ -161,7 +161,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Female"
-                            android:textSize="20dp"
+                            android:textSize="18dp"
                             android:textColor="@color/black"
                             android:layout_gravity="center"/>
 
@@ -187,7 +187,28 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Male"
-                                android:textSize="20dp"
+                                android:textSize="18dp"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"/>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/others"
+                            android:layout_width="0dp"
+                            android:layout_height="50dp"
+                            android:layout_marginRight="10dp"
+                            app:cardBackgroundColor="@color/background"
+                            android:layout_columnWeight="1"
+                            app:cardCornerRadius="16dp"
+                            app:cardElevation="0dp">
+
+                            <TextView
+                                android:id="@+id/othersText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Others"
+                                android:textSize="18dp"
                                 android:textColor="@color/black"
                                 android:layout_gravity="center"/>
 
